@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T07:21:28.002Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ZVWtRjpM3Zhvh4sQcufz" version="20.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-11T07:39:19.016Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="zi57atW2o6lL1-QZ_Ers" version="20.0.4" type="github" pages="2">
   <diagram id="xB_DXqh3xJorZ0jUKmql" name="Page-1">
     <mxGraphModel dx="1470" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -126,19 +126,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="i6pQpKpUv2CvztfTBtSo-75" value="Ledger" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="716" y="350" width="220" height="112" as="geometry" />
+          <mxGeometry x="716" y="350" width="220" height="86" as="geometry" />
         </mxCell>
         <mxCell id="i6pQpKpUv2CvztfTBtSo-77" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="i6pQpKpUv2CvztfTBtSo-75" vertex="1">
           <mxGeometry y="26" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="i6pQpKpUv2CvztfTBtSo-78" value="+ release(id,amount): void (释放利润)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="i6pQpKpUv2CvztfTBtSo-75" vertex="1">
+        <mxCell id="i6pQpKpUv2CvztfTBtSo-78" value="+ release(amount): void (释放利润)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="i6pQpKpUv2CvztfTBtSo-75" vertex="1">
           <mxGeometry y="34" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Dbm6ZNvUqjsA6w19RLxG-23" value="+ lock(id,amount): void (锁定利润)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="i6pQpKpUv2CvztfTBtSo-75" vertex="1">
+        <mxCell id="Dbm6ZNvUqjsA6w19RLxG-24" value="+ withdraw(amount,target): void (取出)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="i6pQpKpUv2CvztfTBtSo-75" vertex="1">
           <mxGeometry y="60" width="220" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="Dbm6ZNvUqjsA6w19RLxG-24" value="+ unlock(id,amount): void (解锁定利润)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="i6pQpKpUv2CvztfTBtSo-75" vertex="1">
-          <mxGeometry y="86" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="i6pQpKpUv2CvztfTBtSo-79" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=elbowEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" parent="1" source="i6pQpKpUv2CvztfTBtSo-24" target="i6pQpKpUv2CvztfTBtSo-75" edge="1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
